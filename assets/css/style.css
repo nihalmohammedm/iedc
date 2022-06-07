@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444444;
 }
 
@@ -24,7 +24,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Krub", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -133,7 +133,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2d405f;
 }
 #header .logo img {
-  max-height: 40px;
+  max-height: 50px;
 }
 
 /*--------------------------------------------------------------
@@ -160,7 +160,7 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-family: "Krub", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 14px;
   font-weight: 600;
   color: #2d405f;
@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #2d405f;
 }
 #hero .btn-get-started {
-  font-family: "Krub", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -378,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #0a22f6;
 }
 #hero .hero-img {
-  max-width: 60%;
+  max-width: 40%;
   margin-top: 40px;
 }
 @media (max-width: 992px) {
@@ -973,7 +973,7 @@ section {
   font-size: 42px;
   color: #3b4ef8;
   font-weight: 500;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   margin-bottom: 20px;
 }
 .pricing .box h4 sup {
@@ -1019,7 +1019,7 @@ section {
   transition: none;
   font-size: 14px;
   font-weight: 400;
-  font-family: "Krub", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 600;
   transition: 0.3s;
 }
@@ -1262,7 +1262,7 @@ section {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Krub", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #4e6fa4;
 }
 #footer .footer-top h4 {
@@ -1377,7 +1377,7 @@ section {
   font-weight: 600;
   }
 .events-head{
-  font-family:"Krub", sans-serif;
+  font-family:"Poppins", sans-serif;
   
 }
 .events-img{
