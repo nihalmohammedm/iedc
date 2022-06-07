@@ -1370,3 +1370,18 @@ section {
   color: #fff;
   text-decoration: none;
 }
+.events{
+  font-style:Comic Sans;
+  text-align: center;
+  font-size: 31px;
+  font-weight: 600;
+  }
+.events-head{
+  font-family:"Krub", sans-serif;
+  
+}
+.events-img{
+  width: 88%;
+  height: 77%;
+}
+
