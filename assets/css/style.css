@@ -332,7 +332,29 @@ h1, h2, h3, h4, h5, h6 {
 .navbar-mobile .dropdown > .dropdown-active {
   display: block;
 }
+/*--------------------------------------------------------------
+#Alert box
+--------------------------------------------------------------*/
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
 
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -369,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   padding: 8px 32px 10px 32px;
   margin-top: 25px;
-  border-radius: 5px;
+  border-radius: 20px;
   transition: 0.5s;
   color: #fff;
   background: #3b4ef8;
