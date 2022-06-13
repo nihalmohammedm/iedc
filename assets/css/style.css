@@ -921,6 +921,7 @@ section {
 .team .member .member-info-content h4 {
   font-weight: 700;
   margin-bottom: 2px;
+  font-weight: 400;
   font-size: 18px;
   color: #fff;
 }
@@ -1367,7 +1368,7 @@ Button
   border-radius: 5px;
 }
 .contact .email-form button[type=submit]:hover {
-  background: #0a22f6;
+  background: #314462;
 }
 @-webkit-keyframes animate-loading {
   0% {
