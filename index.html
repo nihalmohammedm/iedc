@@ -28,9 +28,15 @@
   <link href="assets/css/style.css" rel="stylesheet">
 
   <!-- script call for form-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-</head>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+  var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1lIRSqwJls04PZy8RLXouJI5LgyB6SsCDgJDtLmKr6v8/edit?usp=sharing'
+  $('#switch-hitters').sheetrock({
+  url: mySpreadsheet,
+  query: "select A,B,C",
+  fetchSize: 10
+});
+  </script>
+  </head>
 
 <body>
 
@@ -62,7 +68,7 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-lg-7 d-flex flex-column justify-content-center pt-9 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-7 d-flex flex-column justify-content-lg-center pt-9 pt-lg-0 order-2 order-lg-1" data-aos="fade-up" data-aos-delay="200">
           <h1>Are You an Innovator ?</h1>
           <div class="d-flex justify-content-center justify-content-lg-start">
             <a href="https://innovate.startupmission.in/#/register" class="btn-get-started scrollto">Join Us Now</a>
@@ -119,7 +125,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Why IEDC ?</h2>
+          <h2>Why IEDC ?</h2></div>
+
           <p>The purpose of the IEDCs will be to act as an aspirational platform, for the l student entrepreneurs and tech savvy innovators, in skilling and sharpening their entrepreneurial skill sets. The selected innovators will be exposed to Innovation culture, emerging technologies and Business aspects with the implicit assumption that the delta will become an entrepreneur and all the other skilled talents will get high end jobs with the kind of exposure and skills they acquire.
           </p>
         </div>
@@ -249,7 +256,7 @@
           <h2>Events</h2>
         </div>
         <div class="row no-gutters" data-aos="fade-up">
-
+          <table id="switch-hitters" class="table table-condensed table-striped"></table>
           <div class="col-lg-4 col-md-6 content-item" data-aos="fade-up" data-aos-delay="100">
             <span>01</span>
             <h4>Starting a Startup</h4>
@@ -367,14 +374,8 @@
               <img src="assets/img/team/team.png" class="img-fluid" alt="">
               <div class="member-info">
                 <div class="member-info-content">
-                  <h4>Chithra </h4>
+                  <h4>Chitra N </h4>
                   <span>Nodal Officer, Faculty CE</span>
-                </div>
-                <div class="social">
-
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -386,13 +387,7 @@
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Grady Lawrence Rozario</h4>
-                  <span>Campus Lead, S4 CT</span>
-                </div>
-                <div class="social">
-
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/grady-rozario-8a4649227/"><i class="bi bi-linkedin"></i></a>
+                  <span>Student Lead, S4 CT</span>
                 </div>
               </div>
             </div>
@@ -404,13 +399,7 @@
               <div class="member-info">
                 <div class="member-info-content">
                   <h4>Adhil Ashraf</h4>
-                  <span>Campus Community Lead, S4 CT</span>
-                </div>
-                <div class="social">
-
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
+                  <span>Community Lead, S4 CT</span>
                 </div>
               </div>
             </div>
@@ -424,12 +413,6 @@
                   <h4>Fathima Abbas</h4>
                   <span>Finance Lead, S4 CT</span>
                 </div>
-                <div class="social">
-
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -441,12 +424,6 @@
                 <div class="member-info-content">
                   <h4>Akhil Krishnan</h4>
                   <span>Quality & Operation Lead, S4 AU</span>
-                </div>
-                <div class="social">
-
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -460,12 +437,6 @@
                   <h4>Ganesh G</h4>
                   <span>Branding & Marketing Lead, S4 CT</span>
                 </div>
-                <div class="social">
-
-                  <a href="https://www.facebook.com/profile.php?id=100043089408832"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/invites/contact/?i=1x1e7c69gs0d8&utm_content=ln68jvu"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/ganesh-g-0022gg"><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -477,12 +448,6 @@
                 <div class="member-info-content">
                   <h4>Nihal Mohammed</h4>
                   <span>Creative & Innovation Lead, S4 CT</span>
-                </div>
-                <div class="social">
-
-                  <a href="https://www.facebook.com/nihaalmhd"><i class="bi bi-facebook"></i></a>
-                  <a href="https://www.instagram.com/nihalmohammedm"><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/nihalmohammedm/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -496,12 +461,6 @@
                   <h4>Aman M</h4>
                   <span>Creative & Innovation Lead, S2 EC</span>
                 </div>
-                <div class="social">
-
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
               </div>
             </div>
           </div>
@@ -513,12 +472,6 @@
                 <div class="member-info-content">
                   <h4>Aswin Asokan</h4>
                   <span>Technology Lead, S4 CT</span>
-                </div>
-                <div class="social">
-
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href="https://www.linkedin.com/in/aswin-asokan/"><i class="bi bi-linkedin"></i></a>
                 </div>
               </div>
             </div>
@@ -624,14 +577,14 @@
                 <div class="info-box mt-4">
                   <i class="bx bx-envelope"></i>
                   <h3>Email Us</h3>
-                  <p>iedcgptcklmy@gmail.com<br>iedcgpck@gmail.com</p>
+                  <p>iedcgptcklmy@gmail.com</p>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="info-box mt-4">
                   <i class="bx bx-phone-call"></i>
                   <h3>Call Us</h3>
-                  <p>+91 90379 56007<br>{{PHONE NUMBER}}</p>
+                  <p>+91 90379 56007</p>
                 </div>
               </div>
             </div>
