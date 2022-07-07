@@ -243,11 +243,4 @@
     })
   });
 
-  var mySpreadsheet = 'https://docs.google.com/spreadsheets/d/1lIRSqwJls04PZy8RLXouJI5LgyB6SsCDgJDtLmKr6v8/edit?usp=sharing'
-  $('#switch-hitters').sheetrock({
-  url: mySpreadsheet,
-  query: "select A,B,C",
-  fetchSize: 10
-});
-
 })()
